@@ -1,0 +1,79 @@
+.flex
+  display: flex
+  flex-direction: rows
+  flex-wrap: wrap
+
+
+.col-1
+  width: 100%
+
+  .flex-video
+    background: pink
+    width: 80%
+    height: 144px
+    margin: 0 auto
+    margin-top: -10px
+
+  .flex-video iframe,
+  .flex-video object,
+  .flex-video embed,
+  .flex-video video
+    height: 100%
+    top: 0
+    width: 100%
+    left: 0
+
+  @media (min-width: 550px)
+    .flex-video
+      width: 70%
+      height: 200px
+
+
+.col-2
+  width: 100%
+  background: #f2f2f2
+  text-align: center
+  margin-top: 20px
+
+  h1
+    font-size: 30px
+
+  hr
+    border-width: 5px 0 0
+    margin: 0 auto
+    width: 50px
+    border-color: #acd037
+    border-radius: 200px
+    margin-bottom: 10px
+
+  p
+    padding: 0 15px
+
+@media (min-width: 700px)
+  .flex
+    flex-direction: row
+    background: #f2f2f2
+
+  .col-1
+    width: 50%
+    align-self: center
+
+    .flex-video
+      width: 90%
+
+  .col-2
+    width: 50%
+    margin-top: 0
+    text-align: left
+
+    h1
+      margin-bottom: 5px
+
+    hr
+      border-width: 1px 0 0
+      width: 90%
+      margin: 0
+      margin-bottom: 10px
+
+    p
+      padding: 0 15px 0 0
