@@ -1,0 +1,117 @@
+.section-teachers
+  position: relative
+
+  h1
+    font-size: 30px
+    text-align: center
+    padding-top: 20px
+
+.teachers-belt
+  width: 100%
+  position: relative
+
+  .teacher-unit
+    max-width: 700px
+    margin: 0 auto
+
+    .teacher-avatar
+      max-width: 130px
+      margin: 0 auto
+
+      img
+        max-width: 130px
+        border-radius: 50%
+
+    .teacher-resume
+      text-align: center
+      margin-top: 10px
+      color: $accent-color
+
+      .teacher-name
+        font-size: 20px
+        color: $brand-color
+
+      .teacher-email
+        font-style: normal
+        font-size: 13px
+        font-weight: 100
+
+      hr
+        border-width: 5px 0 0
+        margin: 0 auto
+        width: 50px
+        border-color: #eac737
+        border-radius: 200px
+        margin-bottom: 20px
+        margin-top: 20px
+
+      p
+        padding: 0 15px
+
+.teachers-control
+  position: relative
+  width: 90px
+  margin: 0 auto
+
+  .teacher-control
+    height: 10px
+    width: 10px
+    background-color: transparent
+    border: 1px solid $brand-color
+    display: inline-block
+    border-radius: 50%
+    margin-right: 10px
+    cursor: pointer
+
+    &.active-teacher
+      background: $brand-color
+
+    &:last-child
+      margin-right: 0
+
+.belt-controls
+  position: absolute
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  margin-top: -20px
+  overflow-x: auto
+
+  > div
+    width: 40px
+    height: 40px
+
+    path
+      fill: $accent-color
+
+  .belt-control-next
+    position: absolute
+    top: 50%
+    right: 10px
+
+  .belt-control-prev
+    position: absolute
+    top: 50%
+    left: 10px
+
+@media (min-width: 900px)
+  .teachers-belt
+    .teacher-unit
+      padding: 60px 0
+
+      .teacher-avatar
+        position: absolute
+
+      .teacher-resume
+        max-width: 520px
+        margin-left: 160px
+        text-align: left
+
+        hr
+          border-width: 1px 0 0
+          width: 90%
+          margin: 5px 0 10px
+
+        p
+          padding: 0

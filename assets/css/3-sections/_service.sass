@@ -1,56 +1,70 @@
-section
-  .bg-yellow
-    background: $brand-color
-    padding-bottom: 15px
+.bg-yellow
+  background: $brand-color
+  padding-bottom: 15px
 
-    h1
-      margin: 0
-      text-align: center
-      font-size: 30px
-      padding: .67em 0
-      color: #f2f2f2
+  h1
+    margin: 0
+    text-align: center
+    font-size: 30px
+    padding: 40px 0 20px
+    color: white
 
-    hr
-      border-width: 5px 0 0
-      margin: 0 auto
-      width: 50px
-      border-color: #f2f2f2
-      border-radius: 200px
-      margin-bottom: 10px
-
-    p
-      padding: 0 15px 20px
-      text-align: center
-      color: #8e847c
-
-  .wrapphotos
-    max-width: 700px
+  hr
+    border-width: 5px 0 0
     margin: 0 auto
+    width: 50px
+    border-color: #f2f2f2
+    border-radius: 200px
+    margin-bottom: 10px
 
-    .flex
-      .photo
+  p
+    padding: 0 15px 20px
+    text-align: center
+    color: #f2f2f2
+
+@media (min-width: 500px)
+  .bg-yellow
+    padding: 30px 0
+
+
+.wrapphotos
+  max-width: 700px
+  margin: 0 auto
+
+  .flex
+    .photo
+      width: 100%
+      padding: 0 20px
+      margin: 0 auto
+      height: auto
+
+      img
         width: 100%
-        padding: 0 20px
-        margin: 0 auto
         height: auto
 
-        img
-          width: 100%
-          height: auto
+    .one
+      margin-top: -10px
 
-      .one
-        margin-top: -10px
+    .two
+      margin-top: 10px
+
+  @media (min-width: 550px)
+    .flex
+      flex-direction: row
+
+      .photo
+        width: 50%
+        box-sizing: border-box
 
       .two
-        margin-top: 10px
+        margin-top: -10px
 
-    @media (min-width: 550px)
-      .flex
-        flex-direction: row
+@media (min-width: 980px)
+  .bg-yellow
+    height: 400px
 
-        .photo
-          width: 50%
-          box-sizing: border-box
-
-        .two
-          margin-top: -10px
+  .wrapphotos
+    .flex
+      .one,
+      .two
+        margin-top: -170px
