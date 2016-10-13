@@ -5,24 +5,23 @@
     <div class="belt-control-prev">{% include icons/icon-prev.html %}</div>
   </div>
   <div class="teachers-belt">
+    {% for teacher in site.data.settings.teachers %}
     <div class="teacher-unit">
       <div class="teacher-avatar">
-        <img src="assets/img/teachers/jose.jpg" alt="Foto professor" />
+        <img src="assets/img/teachers/{{ teacher.avatar }}" alt="Foto professor" />
       </div>
       <div class="teacher-resume">
-        <strong class="teacher-name">José Pereira</strong>
+        <strong class="teacher-name">{{ teacher.name }}</strong>
         <br>
-        <em class="teacher-email">jose.pereira@correcutia.com</em>
+        <em class="teacher-email">{{ teacher.email }}</em>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.</p>
+        {{ teacher.resume }}
       </div>
     </div>
+    {% endfor %}
   </div>
   <div class="teachers-control">
-    <div class="teacher-control active-teacher"></div>
+    <div class="teacher-control"></div>
     <div class="teacher-control"></div>
     <div class="teacher-control"></div>
     <div class="teacher-control"></div>

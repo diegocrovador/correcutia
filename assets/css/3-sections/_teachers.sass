@@ -13,6 +13,10 @@
   .teacher-unit
     max-width: 700px
     margin: 0 auto
+    display: none
+
+    &.active-teacher
+      display: block
 
     .teacher-avatar
       max-width: 130px
@@ -52,6 +56,7 @@
   position: relative
   width: 90px
   margin: 0 auto
+  z-index: 2
 
   .teacher-control
     height: 10px
@@ -77,6 +82,7 @@
   left: 0px
   margin-top: -20px
   overflow-x: auto
+  z-index: 1
 
   > div
     width: 40px
@@ -89,13 +95,19 @@
     position: absolute
     top: 50%
     right: 10px
+    cursor: pointer
 
   .belt-control-prev
     position: absolute
     top: 50%
     left: 10px
+    cursor: pointer
 
 @media (min-width: 900px)
+  .section-teachers
+    h1
+      padding-top: 50px
+
   .teachers-belt
     .teacher-unit
       padding: 60px 0

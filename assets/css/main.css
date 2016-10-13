@@ -804,7 +804,10 @@ header {
   position: relative; }
   .teachers-belt .teacher-unit {
     max-width: 700px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    display: none; }
+    .teachers-belt .teacher-unit.active-teacher {
+      display: block; }
     .teachers-belt .teacher-unit .teacher-avatar {
       max-width: 130px;
       margin: 0 auto; }
@@ -838,7 +841,8 @@ header {
 .teachers-control {
   position: relative;
   width: 90px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  z-index: 2; }
   .teachers-control .teacher-control {
     height: 10px;
     width: 10px;
@@ -861,7 +865,8 @@ header {
   bottom: 0px;
   left: 0px;
   margin-top: -20px;
-  overflow-x: auto; }
+  overflow-x: auto;
+  z-index: 1; }
   .belt-controls > div {
     width: 40px;
     height: 40px; }
@@ -870,13 +875,17 @@ header {
   .belt-controls .belt-control-next {
     position: absolute;
     top: 50%;
-    right: 10px; }
+    right: 10px;
+    cursor: pointer; }
   .belt-controls .belt-control-prev {
     position: absolute;
     top: 50%;
-    left: 10px; }
+    left: 10px;
+    cursor: pointer; }
 
 @media (min-width: 900px) {
+  .section-teachers h1 {
+    padding-top: 50px; }
   .teachers-belt .teacher-unit {
     padding: 60px 0; }
     .teachers-belt .teacher-unit .teacher-avatar {

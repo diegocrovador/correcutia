@@ -1,0 +1,31 @@
+# Teachers section
+
+teachers:
+- {avatar: 'jose.jpg',
+  name: 'José Pereira',
+  email: 'jose.pereira@correcutia.com',
+  resume: '<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.</p>'}
+- {avatar: 'joao.jpg',
+  name: 'João Lacerda',
+  email: 'joao.lacerda@correcutia.com',
+  resume: '<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.</p>'}
+- {avatar: 'jonas.jpg',
+  name: 'Jonas Novaes',
+  email: 'jonas.novaes@correcutia.com',
+  resume: '<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.</p>'}
+- {avatar: 'fernanda.jpg',
+  name: 'Fernanda Larusso',
+  email: 'fernanda.larusso@correcutia.com',
+  resume: '<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.</p>'}

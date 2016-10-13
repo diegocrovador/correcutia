@@ -3,11 +3,7 @@ $(function() {
 
   $("header h1").fitText(1, { minFontSize: '37px', maxFontSize: '75px' });
 
-  // Closes the Responsive Menu on Menu Item Click
-  //$('.mobile-nav-toggle)').click(function() {
-    //$('.mobile-nav:visible').click();
-  //});
-
+  teachers_carousel();
 });
 
 // mobile nav
@@ -50,6 +46,44 @@ function mobileNav() {
     });
 
   };
-
-
 })( jQuery );
+
+//Teachers Carousel
+function teachers_carousel() {
+
+  $('.teacher-unit').first().addClass('active-teacher');
+  $('.teacher-control').first().addClass('active-teacher');
+
+  $('.teacher-control').click(function() {
+    var $this = $(this),
+        $siblings = $this.parent().children(),
+        position = $siblings.index($this);
+
+    $('.teacher-unit').removeClass('active-teacher').eq(position).addClass('active-teacher');
+    $siblings.removeClass('active-teacher');
+    $this.addClass('active-teacher');
+  });
+
+  $('.belt-control-next, .belt-control-prev').click(function() {
+    var $this = $(this),
+        curActiveTeacher = $('.teachers-belt').find('.active-teacher'),
+        position = $('.teachers-belt').children().index(curActiveTeacher),
+        teacherNum = $('.teacher-unit').length;
+
+      if($this.hasClass('belt-control-next')) {
+        if (position < teacherNum -1) {
+          $('.active-teacher').removeClass('active-teacher').next().addClass('active-teacher');
+        } else {
+          $('.teacher-unit').removeClass('active-teacher').first().addClass('active-teacher');
+          $('.teacher-control').removeClass('active-teacher').first().addClass('active-teacher');
+        }
+      } else {
+        if (position === 0) {
+          $('.teacher-unit').removeClass('active-teacher').last().addClass('active-teacher');
+          $('.teacher-control').removeClass('active-teacher').last().addClass('active-teacher');
+        } else {
+          $('.active-teacher').removeClass('active-teacher').prev().addClass('active-teacher');
+        }
+      }
+  });
+}
