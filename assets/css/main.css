@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Baloo+Bhai';
+@import url("https://fonts.googleapis.com/css?family=Rubik");
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -406,6 +407,75 @@ template {
 [hidden] {
   display: none; }
 
+.teachers-belt .teacher-unit {
+  -webkit-animation: animation 1800ms linear both;
+  animation: animation 1800ms linear both; }
+
+/* Generated with Bounce.js. Edit at https://goo.gl/ksIyz1 */
+@-webkit-keyframes animation {
+  0% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); }
+  4.2% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -135.218, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -135.218, 0, 0, 1); }
+  8.31% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -34.768, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -34.768, 0, 0, 1); }
+  12.51% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.646, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.646, 0, 0, 1); }
+  16.62% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 18.992, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 18.992, 0, 0, 1); }
+  27.73% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.855, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.855, 0, 0, 1); }
+  38.84% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.76, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.76, 0, 0, 1); }
+  61.06% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.03, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.03, 0, 0, 1); }
+  83.28% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1); }
+  100% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
+
+@keyframes animation {
+  0% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); }
+  4.2% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -135.218, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -135.218, 0, 0, 1); }
+  8.31% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -34.768, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -34.768, 0, 0, 1); }
+  12.51% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.646, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.646, 0, 0, 1); }
+  16.62% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 18.992, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 18.992, 0, 0, 1); }
+  27.73% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.855, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.855, 0, 0, 1); }
+  38.84% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.76, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.76, 0, 0, 1); }
+  61.06% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.03, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.03, 0, 0, 1); }
+  83.28% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1); }
+  100% {
+    -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
+
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #8e847c;
@@ -454,6 +524,9 @@ hr {
   height: 0;
   border-color: #eac737; }
 
+h1 {
+  font-family: 'Rubik', sans-serif; }
+
 a {
   color: #8e847c;
   text-decoration: none;
@@ -496,7 +569,7 @@ section {
   background: #f2f2f2; }
 
 .site-nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -514,7 +587,8 @@ section {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  z-index: 2; }
   .site-nav .brand {
     background: url(../img/logo.svg) no-repeat;
     width: 150px;
@@ -572,7 +646,7 @@ section {
 .mobile-nav {
   display: none;
   width: 100%;
-  position: absolute;
+  position: fixed;
   margin-top: 80px;
   background: white;
   padding: 30px 0 20px;
@@ -580,7 +654,8 @@ section {
       -ms-transform: translateY(-100%);
           transform: translateY(-100%);
   -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  z-index: 2; }
   .mobile-nav ul {
     list-style: none;
     margin: 0;
@@ -633,7 +708,9 @@ header {
   .content {
     padding-top: 60px; }
   header {
-    height: 500px; } }
+    height: 500px; }
+    header p {
+      font-size: 17px; } }
 
 .section-history {
   padding-bottom: 50px;
@@ -788,6 +865,8 @@ header {
 @media (min-width: 980px) {
   .bg-yellow {
     height: 400px; }
+    .bg-yellow .wrap p {
+      font-size: 16px; }
   .wrapphotos .flex .one,
   .wrapphotos .flex .two {
     margin-top: -170px; } }
@@ -801,7 +880,8 @@ header {
 
 .teachers-belt {
   width: 100%;
-  position: relative; }
+  position: relative;
+  overflow-x: auto; }
   .teachers-belt .teacher-unit {
     max-width: 700px;
     margin: 0 auto;
@@ -825,7 +905,7 @@ header {
       .teachers-belt .teacher-unit .teacher-resume .teacher-email {
         font-style: normal;
         font-size: 13px;
-        font-weight: 100; }
+        font-weight: 200; }
       .teachers-belt .teacher-unit .teacher-resume hr {
         border-width: 5px 0 0;
         margin: 0 auto;
@@ -887,7 +967,7 @@ header {
   .section-teachers h1 {
     padding-top: 50px; }
   .teachers-belt .teacher-unit {
-    padding: 60px 0; }
+    padding: 40px 0; }
     .teachers-belt .teacher-unit .teacher-avatar {
       position: absolute; }
     .teachers-belt .teacher-unit .teacher-resume {

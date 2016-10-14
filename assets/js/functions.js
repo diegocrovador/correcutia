@@ -1,18 +1,32 @@
 $(function() {
   mobileNav();
-
+  smoothScroll(300);
   $("header h1").fitText(1, { minFontSize: '37px', maxFontSize: '75px' });
-
   teachers_carousel();
 });
 
 // mobile nav
 function mobileNav() {
-  $('.mobile-nav-toggle').on('click', function(){
+  $('.mobile-nav-toggle, .mobile-nav').on('click', function(){
     var status = $(this).hasClass('is-open');
     if(status){ $('.mobile-nav-toggle, .mobile-nav').removeClass('is-open'); }
     else { $('.mobile-nav-toggle, .mobile-nav').addClass('is-open'); }
   });
+}
+
+// Scroll
+function smoothScroll (duration) {
+	$('a[href^="#"]').on('click', function(event) {
+
+	    var target = $( $(this).attr('href') );
+
+	    if( target.length ) {
+	        event.preventDefault();
+	        $('html, body').animate({
+	            scrollTop: target.offset().top - 80
+	        }, duration);
+	    }
+	});
 }
 
 // fitText function
