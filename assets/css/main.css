@@ -525,7 +525,10 @@ hr {
   border-color: #eac737; }
 
 h1 {
-  font-family: 'Rubik', sans-serif; }
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px; }
 
 a {
   color: #8e847c;
@@ -588,7 +591,7 @@ section {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  z-index: 2; }
+  z-index: 3; }
   .site-nav .brand {
     background: url(../img/logo.svg) no-repeat;
     width: 150px;
@@ -655,7 +658,7 @@ section {
           transform: translateY(-100%);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  z-index: 2; }
+  z-index: 3; }
   .mobile-nav ul {
     list-style: none;
     margin: 0;
@@ -980,3 +983,35 @@ header {
         margin: 5px 0 10px; }
       .teachers-belt .teacher-unit .teacher-resume p {
         padding: 0; } }
+
+.yellow-bar {
+  background: #eac737;
+  position: relative;
+  padding: 20px 0 40px;
+  margin-top: 50px; }
+  .yellow-bar h1 {
+    color: white; }
+  .yellow-bar .contact-info {
+    margin: 0 auto;
+    width: 100%; }
+    .yellow-bar .contact-info p {
+      font-size: 14px;
+      color: white;
+      text-align: center;
+      margin-bottom: 0; }
+      .yellow-bar .contact-info p img {
+        width: 13px;
+        height: 13px; }
+  .yellow-bar:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 50%;
+    top: 100%;
+    -webkit-transform: translateX(-25px);
+        -ms-transform: translateX(-25px);
+            transform: translateX(-25px);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid #eac737; }
