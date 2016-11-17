@@ -1,20 +1,20 @@
 # Teachers section
 
 teachers:
-- {avatar: 'jose.jpg',
-  name: 'José Pereira',
-  email: 'jose.pereira@correcutia.com',
-  resume: '<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat.</p>'}
-- {avatar: 'joao.jpg',
-  name: 'João Lacerda',
-  email: 'joao.lacerda@correcutia.com',
-  resume: '<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat.</p>'}
+- {avatar: 'karine.jpg',
+  name: 'Karine Durães',
+  email: 'karine@vilarejonutricao.com.br',
+  resume: '<p><strong>Nutricionista especialista em nutrição em pediatria</strong>
+          pelo Instituto da Criança da Faculdade de Medicina na USP, pós graduada
+          em fitoterapia e alimentos funcionais, iniciou sua carreira há 11 anos
+          em banco de leite referência de São Paulo.</p>'}
+- {avatar: 'thais.jpg',
+  name: 'Thais Pontes Moreira',
+  email: 'thais.moreira@correcutia.com',
+  resume: '<p><strong>Graduada em Comunicação das Artes do Corpo com habilitação
+          em dança</strong> pela PUC/SP, atualmente cursa Pedagogia no Instituto
+          Singularidades. Desde 2009 estuda e pesquisa as artes circenses
+          especializando-se em acrobacia aérea.</p>'}
 - {avatar: 'jonas.jpg',
   name: 'Jonas Novaes',
   email: 'jonas.novaes@correcutia.com',

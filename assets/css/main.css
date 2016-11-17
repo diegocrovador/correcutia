@@ -786,7 +786,7 @@ header {
 
 @media (min-width: 700px) {
   .section-history {
-    padding: 80px 0; }
+    padding: 40px 0; }
   .flex {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -875,12 +875,12 @@ header {
 
 @media (min-width: 980px) {
   .bg-yellow {
-    height: 400px; }
+    height: 470px; }
     .bg-yellow .wrap p {
       font-size: 16px; }
   .wrapphotos .flex .one,
   .wrapphotos .flex .two {
-    margin-top: -170px; } }
+    margin-top: -20px; } }
 
 .section-teachers {
   position: relative; }
