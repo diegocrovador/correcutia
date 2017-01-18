@@ -15,17 +15,8 @@ teachers:
           em dança</strong> pela PUC/SP, atualmente cursa Pedagogia no Instituto
           Singularidades. Desde 2009 estuda e pesquisa as artes circenses
           especializando-se em acrobacia aérea.</p>'}
-- {avatar: 'jonas.jpg',
-  name: 'Jonas Novaes',
-  email: 'jonas.novaes@correcutia.com',
-  resume: '<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat.</p>'}
-- {avatar: 'fernanda.jpg',
-  name: 'Fernanda Larusso',
-  email: 'fernanda.larusso@correcutia.com',
-  resume: '<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat.</p>'}
+- {avatar: 'romulo.jpg',
+  name: 'Romulo Venoso',
+  email: 'romulo.venoso@correcutia.com',
+  resume: '<p><strong>Romulo Venoso, professor formado em Educação Física</strong>,
+          trabalha com crianças desde 2001. Idealizador do projeto Corre Cutia.</p>'}
