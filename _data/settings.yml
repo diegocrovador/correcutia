@@ -20,3 +20,9 @@ teachers:
   email: 'romulo.venoso@correcutia.com',
   resume: '<p><strong>Romulo Venoso, professor formado em Educação Física</strong>,
           trabalha com crianças desde 2001. Idealizador do projeto Corre Cutia.</p>'}
+- {avatar: 'rubens.jpg',
+  name: 'Rubens Xavier Faria',
+  email: 'rubens.faria@correcutia.com',
+  resume: '<p><strong>Formado em Educação Física e Pedagogia</strong>,
+          com 10 anos de experiência em educação e mais de 20 anos de
+          prática em Artes Marciais.</p>'}
